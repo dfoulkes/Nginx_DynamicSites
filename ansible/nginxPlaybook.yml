@@ -1,0 +1,6 @@
+- name: add new definition to site.properties
+  hosts: all 
+  roles:
+    - role: nginxUpdate
+  vars:
+  become_method: sudo   
