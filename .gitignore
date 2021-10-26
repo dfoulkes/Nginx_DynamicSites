@@ -1,0 +1,9 @@
+vault-password-file.txt
+.vagrant
+ansible/nginxPlaybook.retry
+bin
+include
+lib
+lib64
+share
+

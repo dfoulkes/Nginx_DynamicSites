@@ -49,3 +49,4 @@
   ```
   ansible-playbook --ask-become-pass -i ../inventory.yml nginxPlaybook.yml
   ```
+  - when prompted enter the vagrant default password of vagrant
