@@ -47,6 +47,7 @@
   - navigate to ./ansible in the folder.
   - from ansible directory, run the following command:
   ```
-  ansible-playbook --ask-become-pass -i ../inventory.yml nginxPlaybook.yml
+  ansible-playbook --ask-become-pass -i ../inventory.ini nginxPlaybook.yml --extra-vars "bucket_name='myBucketName'"
+
   ```
   - when prompted enter the vagrant default password of vagrant
